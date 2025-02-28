@@ -6,4 +6,4 @@ services:
       dockerfile: Dockerfile
     image: demoapi:latest
     ports:
-      - "1964:8080"
+      - "8080:8080"
