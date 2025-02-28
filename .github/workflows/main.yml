@@ -63,7 +63,7 @@ jobs:
           context: .
           file: Dockerfile
           push: false
-          tags: ${{ secrets.DOCKERHUB_USER }}/projet08:latest
+          tags: ${{ secrets.DOCKERHUB_USER }}/demoapi:latest
 
       # Log in to Docker Hub
       - name: login to docker hub
