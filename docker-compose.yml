@@ -1,0 +1,9 @@
+services:
+
+  demoapi:
+    container_name: demoapi
+    build:
+      dockerfile: Dockerfile
+    image: demoapi:latest
+    ports:
+      - "1964:8080"
