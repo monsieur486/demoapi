@@ -17,15 +17,15 @@ public class MainController {
     if(name != null && !name.isEmpty()) {
       if(name.equals("darling")) {
         message = "❤\uFE0F ❤\uFE0F ❤\uFE0F Coucou mon Amour ❤\uFE0F ❤\uFE0F ❤\uFE0F";
-        color = "red";
+        color = "RED";
       } else {
         message = "Bonjour " + name + "!";
-        color = "green";
+        color = "GREEN";
       }
 
     } else {
       message = "Hello World!";
-      color = "black";
+      color = "BLACK";
     }
     return Map.of("message", message, "color", color);
   }
