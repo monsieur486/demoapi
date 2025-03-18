@@ -1,7 +1,7 @@
 services:
 
   demoapi:
-    container_name: new-demoapi
+    container_name: docker-demoapi
     image: monsieur486/demoapi:latest
     ports:
       - "1964:8080"
