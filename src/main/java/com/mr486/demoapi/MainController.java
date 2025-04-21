@@ -17,7 +17,7 @@ public class MainController {
     if(name != null && !name.isEmpty()) {
       if(name.equals("darling")) {
         message = "❤\uFE0F ❤\uFE0F ❤\uFE0F Coucou mon Amour ❤\uFE0F ❤\uFE0F ❤\uFE0F";
-        color = "RED";
+        color = "PINK";
       } else {
         message = "Bonjour " + name + "!";
         color = "GREEN";
